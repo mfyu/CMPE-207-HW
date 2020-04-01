@@ -22,9 +22,3 @@ while 1:
 	conn, addr = s.accept()
 	print('Connection address:', addr)
 	conn.send(MESSAGE.encode())
-#while 1:
-    #data = conn.recv(BUFFER_SIZE)
-    #if not data: break
-    #print("received data:", data)
-
-#conn.close()
